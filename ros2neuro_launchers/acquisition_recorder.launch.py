@@ -13,7 +13,7 @@ def generate_launch_description():
          package='ros2neuro_acquisition',
          executable='acquisition',
          parameters=[
-            {"plugin" : "rosneuro::EGDDevice"},
+            {"plugin" : "ros2neuro::EGDDevice"},
             {"framerate" : 16.0},
             {"devarg" : "/home/paolo/prova16ch.gdf"},
             {"samplerate" : 512}
